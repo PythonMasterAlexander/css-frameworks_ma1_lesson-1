@@ -7,8 +7,25 @@ body {
   flex-direction: column;
 }
 
+body {
+  background-color: var(--background-color);
+}
+
 .page-wrapper {
   flex: 1 0 auto;
+}
+
+main {
+  margin: 75px 0;
+}
+
+li {
+  background-color: #121010!important;
+  border-bottom: solid var(--border-color) 0.5px!important;
+}
+
+ .list-container__list--no-border {
+  border-bottom: 0!important;
 }
 
 footer {

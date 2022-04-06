@@ -4,6 +4,8 @@
 	--primary-color-hover: #f54b8d;
 	--nav-color: #262525;
 	--background-dark: rgba(0, 0, 0, 0.5);
+	--body-font-color: #fff;
+	--border-color: #fff;
 
 	--header-font: 'IBM Plex Mono', monospace;
 	--body-font: 'IBM Plex Sans', sans-serif;
