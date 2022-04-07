@@ -45,6 +45,10 @@ li {
   max-height: 700px;
 }
 
+li {
+  color: red;
+}
+
 footer {
   display: flex;
   flex-shrink: 0;
