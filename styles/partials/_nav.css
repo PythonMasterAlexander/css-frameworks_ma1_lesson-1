@@ -7,6 +7,7 @@
 	background-color: var(--nav-color) !important;
 	color: white;
 	text-transform: uppercase;
+	padding: 0 100px!important;
 }
 
 .nav-link {

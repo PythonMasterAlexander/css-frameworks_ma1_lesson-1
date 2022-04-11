@@ -1,0 +1,13 @@
+footer {
+  background-color: var(--nav-color);
+}
+
+footer p, footer a {
+  color: var(--footer-font-color);
+}
+
+.footer__container--sizing {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+}

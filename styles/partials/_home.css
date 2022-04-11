@@ -44,9 +44,3 @@ li {
 .carousel-inner {
   max-height: 700px;
 }
-
-footer {
-  background-color: var(--nav-color);
-  display: flex;
-  flex-shrink: 0;
-}
