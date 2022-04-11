@@ -45,11 +45,8 @@ li {
   max-height: 700px;
 }
 
-li {
-  color: red;
-}
-
 footer {
+  background-color: var(--nav-color);
   display: flex;
   flex-shrink: 0;
 }
