@@ -1,11 +1,14 @@
-import logo from './logo.svg';
+import HeaderComponent from './components/HeaderComponent';
+import Container from './page-layout/Container';
+
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
+    <div className="wrapper">
+      <Container>
+        <HeaderComponent />
+      </Container>
     </div>
   );
-}
-
-export default App;
+};
