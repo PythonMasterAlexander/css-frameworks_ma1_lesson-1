@@ -1,14 +1,38 @@
-import HeaderComponent from './components/HeaderComponent';
-import Container from './page-layout/Container';
+import React from 'react';
+import styled from 'styled-components';
 
-import './App.css';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
-export default function App() {
+import PageHeader from './components/PageHeader';
+import Home from './pages/Home';
+import Products from './pages/Products';
+import Contact from './pages/Contact';
+import NoMatch from './pages/NoMatch';
+
+const Wrapper = styled.div``;
+const BodyContainer = styled.div`
+  margin: 0; 
+`;
+
+
+function App() {
   return (
-    <div className="wrapper">
-      <Container>
-        <HeaderComponent />
-      </Container>
-    </div>
+    <React.Fragment>
+      <Wrapper>
+        <BodyContainer>
+          <PageHeader />
+          <Router>
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route path="/Products" element={<Products />} />
+              <Route path="/Contact" element={<Contact />} />
+              <Route element={<NoMatch />} />
+            </Routes>
+          </Router>
+        </BodyContainer>
+      </Wrapper>
+    </React.Fragment>
   );
-};
+}
+
+export default App;

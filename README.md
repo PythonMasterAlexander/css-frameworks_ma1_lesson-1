@@ -16,4 +16,4 @@ This are because create-react-app commands generate a new folder for you.
 2)Install vanilla bootstrap -> npm install bootstrap
 3)Install react-bootstrap -> npm install react-bootstrap 
 4)Install styled-components -> npm install styled-components
-5)Install react-router-dom -> npm install react-router-dom
+5)Install react-router-dom -> npm install react-router
