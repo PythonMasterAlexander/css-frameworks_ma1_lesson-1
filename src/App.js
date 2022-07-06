@@ -12,6 +12,7 @@ import NoMatch from './pages/NoMatch';
 const Wrapper = styled.div``;
 const BodyContainer = styled.div`
   margin: 0; 
+  padding: 0;
 `;
 
 
