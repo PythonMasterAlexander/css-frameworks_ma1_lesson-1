@@ -8,8 +8,12 @@ import Home from './pages/Home';
 import Products from './pages/Products';
 import Contact from './pages/Contact';
 import NoMatch from './pages/NoMatch';
+import PageFooter from './components/PageFooter';
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  flex: 1 0 auto;
+`;
+
 const BodyContainer = styled.div`
   margin: 0; 
   padding: 0;
@@ -32,6 +36,7 @@ function App() {
           </Router>
         </BodyContainer>
       </Wrapper>
+      <PageFooter />
     </React.Fragment>
   );
 }
