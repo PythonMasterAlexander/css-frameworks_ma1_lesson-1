@@ -1,18 +1,10 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import HomePageLayout from './page-layout/HomePageLayout';
 
 export default function Home() {
   return(
     <React.Fragment>
-      <main>
-        <Container>
-          <Row>
-            <Col>
-              <h1>SERIOUSLY, BUY MORE THINGS</h1>
-            </Col>
-          </Row>
-        </Container>
-      </main>
+      <HomePageLayout />
     </React.Fragment>
   );
 }
