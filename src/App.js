@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import PageHeader from './components/PageHeader';
 import Home from './pages/Home';
 import Products from './pages/Products';
+import About from './pages/About';
 import Contact from './pages/Contact';
 import NoMatch from './pages/NoMatch';
 import PageFooter from './components/PageFooter';
@@ -30,6 +31,7 @@ function App() {
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route path="/Products" element={<Products />} />
+              <Route path="/About" element={<About />} />
               <Route path="/Contact" element={<Contact />} />
               <Route element={<NoMatch />} />
             </Routes>

@@ -1,18 +1,11 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+
+import ContactPageLayout from './page-layout/ContactPageLayout';
 
 export default function Contact() {
   return (
     <React.Fragment>
-      <main>
-        <Container>
-          <Row>
-            <Col>
-              <h1>Contact</h1>
-            </Col>
-          </Row>
-        </Container>
-      </main>
+      <ContactPageLayout />
     </React.Fragment>
   );
 }

@@ -17,3 +17,10 @@ This are because create-react-app commands generate a new folder for you.
 3)Install react-bootstrap -> npm install react-bootstrap 
 4)Install styled-components -> npm install styled-components
 5)Install react-router-dom -> npm install react-router
+
+Note -> Remember when you want to display images, you must import them as a Alias in the file
+where you are using them, then use that import in the src attribute like this src?{MyImageAlias}.
+Remember the path to the folder where the image are.
+
+Note -> If you need to make a linebreak, don't use </ Br> element. According to mdn this is not good
+for accesibility. Use more <p> tags around text to split text up.
